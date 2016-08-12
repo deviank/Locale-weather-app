@@ -1,0 +1,97 @@
+
+body {
+  background-color: black;
+  font-family: "Times New Roman";
+}
+
+.buttons {
+    width:450px;
+    margin: auto;
+    display:block;
+  .button {
+      height:38px;
+      border:none;
+      border-style: solid;
+      border-radius:3px;
+      color:#fff;
+      background-color:grey;
+      outline:none;
+      font-size:0.95em;
+      padding: 8px 18px 6px 18px;
+      margin-top:30px;
+      opacity:1;
+      cursor:pointer;
+    &:hover {
+        opacity:0.9;
+      }
+    &#tweet-quote {
+        float:left;
+        padding:0px;
+        padding-top:2px;
+        text-align:center;
+        font-size:1.2em;
+        margin-right:5px;
+        height:30px;
+        width:40px;
+      }
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quotesBox {
+  background-color: grey;
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+  color: white;
+}
+
+.quote {
+  font-size: 30px;
+}
+
+.author {
+  font-size: 20px;
+  font-style: italic;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer {
+  width: 450px;
+  text-align: right;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 15px;
+  color: #fff;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Aug 2016, 2:03:44 PM
+    Author     : Devian
+*/
+
